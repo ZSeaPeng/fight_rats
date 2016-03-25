@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打地鼠</title>
+    <!--完整css-->
+    <link rel="stylesheet" type="text/css" href="css/new_index_min.css" />
+</head>
+<body>
+<div id="header">
+    <div id="header_pic"></div>
+</div>
+<div id="nav"></div>
+<div id="content_left_1">
+    <span class="txt">Score:&nbsp;</span>
+    <input type="button" id="score" value="0"/>
+</div>
+<div id="content">
+    <div id="content_left">
+        <ul id="burrow_1">
+            <li id="burrow[0]" onclick="hit(0)"></li>
+            <li id="burrow[1]" onclick="hit(1)"></li>
+            <li id="burrow[2]" onclick="hit(2)"></li>
+            <li id="burrow[3]" onclick="hit(3)"></li>
+        </ul>
+        <ul id="burrow_2">
+            <li id="burrow[4]" onclick="hit(4)"></li>
+            <li id="burrow[5]" onclick="hit(5)"></li>
+            <li id="burrow[6]" onclick="hit(6)"></li>
+            <li id="burrow[7]" onclick="hit(7)"></li>
+        </ul>
+        <ul id="burrow_3">
+            <li id="burrow[8]" onclick="hit(8)"></li>
+            <li id="burrow[9]" onclick="hit(9)"></li>
+            <li id="burrow[10]" onclick="hit(10)"></li>
+            <li id="burrow[11]" onclick="hit(11)"></li>
+        </ul>
+        <ul id="burrow_4">
+            <li id="burrow[12]" onclick="hit(12)"></li>
+            <li id="burrow[13]" onclick="hit(13)"></li>
+            <li id="burrow[14]" onclick="hit(14)"></li>
+            <li id="burrow[15]" onclick="hit(15)"></li>
+        </ul>
+    </div>
+</div>
+<div id="content_right_1">
+    <span class="txt">Count Down:</span>
+    <input id="count_down" type="button" value="30"/>
+        </div>
+<div id="bottom">
+    <input type="button" id="start" onclick="start()" value="Start">
+    <input type="button" id="stop" value="Stop" onclick="stop()">
+    <div>
+        <span id="copy">&copy;2015-2016</span>
+        <span id="date"></span>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/fight_rats_min.js"></script>
+</body>
+</html>
